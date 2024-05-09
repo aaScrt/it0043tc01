@@ -1,0 +1,223 @@
+<html>
+  <head>
+  <title>Ramos_tsa2 </title>
+  </head>
+
+<body>
+<center>
+  <form action="#" name="pokemon" method="post" align="center">
+	<label for="dex">National Dex:</label>
+	
+		<input type="number" name="dex" id="dex" min="1"> <br> <br>
+	<input type="radio" name="gen" id="gen1" value="gen1">
+		<label for="gen1">Generation 1</label>
+		
+	<input type="radio" name="gen" id="gen2" value="gen2">
+		<label for="gen2">Generation 2</label>
+		
+	<input type="radio" name="gen" id="gen3" value="gen3">
+		<label for="gen3">Generation 3</label>
+		
+	<input type="radio" name="gen" id="gen4" value="gen4">
+		<label for="gen4">Generation 4</label> 
+		
+	<input type="radio" name="gen" id="gen4" value="gen5">
+		<label for="gen5">Generation 5</label> 
+
+	<input type="radio" name="gen" id="gen6" value="gen6">
+		<label for="gen6">Generation 6</label> 
+		
+	<input type="radio" name="gen" id="gen7" value="gen7">
+		<label for="gen7">Generation 7</label> 
+		
+	<input type="radio" name="gen" id="gen8" value="gen8">
+		<label for="gen8">Generation 8</label> 
+		
+	<input type="radio" name="gen" id="gen9" value="gen9">
+		<label for="gen9">Generation 9</label> <br>
+
+	 <tr> 
+            <td>Pokémon Name:</td>
+            <td><input type="text" name="pokemonName"></td>
+        </tr> <br> <br>
+      
+            <td>Image:</td>
+            <td><input type="file" name="pokemonImage"></td>
+        </tr> <br> <br>
+		
+        <tr>
+            <td>Type 1:</td>
+            <td><input type="text" name="type1"></td>
+        </tr>
+		
+        <tr>
+            <td>Type 2:</td>
+            <td><input type="text" name="type2"></td>
+        </tr> <br> <br>
+		
+        <tr>
+            <td>Evolves From:</td>
+            <td><input type="text" name="evolvesFrom"></td>
+        </tr>
+		
+        <tr>
+            <td>Evolves To:</td>
+            <td><input type="text" name="evolvesTo"></td>
+        </tr> <br> <br>
+		
+        <tr>
+            <td>Nickname:</td>
+            <td><input type="text" name="nickname"></td>
+        </tr> <br> <br>
+		
+        <tr>
+            <td>Birthday:</td>
+            <td><input type="date" name="birthday"></td>  
+        </tr> <br> <br>
+    <!-- Submit button -->
+    <input type="submit" value="Submit"> <br> <br>
+</form>
+  <table border="1" align="center">
+		<tr>
+
+<table border="1" align = "center"> <tr> 
+<th>National Dex</th> 
+<th>Generation</th>
+ <th>Pokemon Name</th>
+ <th>Image</th> 
+ <th>Type 1</th> 
+ <th>Type 2</th>
+ <th>Evolves From</th> 
+ <th>Evolves To</th> 
+ <th>Nickname</th>
+ <th>Birthday</th>
+ </tr>
+ 
+ <tr align="center">
+ <th>1</th> 
+ <td>#0156</td> 
+ <td>Aaliyah</td> 
+ <td><img src="https://scontent.fbag4-1.fna.fbcdn.net/v/t39.30808-1/439920872_2223711197978748_140415927235554397_n.jpg?stp=dst-jpg_s200x200&_nc_cat=102&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeEdaSQ-dm2tSWPyjrMSlPRvGoDddZQJRgAagN11lAlGAImnG2YbOZYps6i0IV29X73wMJzKPBHgY-qLWFk7kYM3&_nc_ohc=_Di9d2dN7bUQ7kNvgEkU7FV&_nc_ht=scontent.fbag4-1.fna&oh=00_AfBANLBnx52xzzlA4YK037zpOs0OwQsFmhgU_ZjQieJqRw&oe=6642B384" alt="My Image" width="100" height="100"</td> 
+ <td style="background-color: FF0000; color: white;">Fire</td>
+ <td style="background-color: 99B9FC; color: white;">Flying</td>
+ <td>Ali</td> 
+ <td>Liyah</td>
+ <td>Aa</td> 
+ <td>27-10-2004</td>
+ </tr>
+ 
+ <tr align="center">
+ <th>1</th> 
+ <td>#0039</td> 
+ <td>Jigglypuff</td> 
+ <td><img src="Jigglypuff.png" alt="My Image" width="100" height="100"</td> 
+ <td style="background-color: 9C9C9C; color: white;">Normal</td>
+ <td style="background-color: FF97FC; color: white;">Fairy</td>
+ <td>Jigglypuff</td> 
+ <td>Wigglypuff</td>
+ <td>Gabbi</td> 
+ <td>04-05-2020</td>
+ </tr>
+ 
+ <tr align="center">
+ <th>2</th> 
+ <td>#0152</td> 
+ <td>Chikorita</td> 
+ <td><img src="Chikorita.png" alt="My Image" width="100" height="100"</td> 
+ <td = colspan="2" style="background-color: 00991A; color: white;">Grass</td>
+ <td>Chikorita</td>
+ <td>Meganium</td>
+ <td>Cassie</td>
+ <td>07-07-2014</td>
+ </tr>
+ 
+ <tr align="center"> 
+ <th>3</th> 
+ <td>#0282</td>
+ <td>Gardevoir</td>
+ <td><img src="Gardevoir.png" alt="My Image" width="100" height="100"</td>
+ <td style="background-color: FF00AA; color: white;">Psychic</td>
+ <td style="background-color: FF97FC; color: white;">Fairy</td>
+ <td>Ralts</td>
+ <td>Gardevoir</td>
+ <td>Lj</td>
+ <td>26-01-2008</td>
+ </tr>
+ 
+ <tr align="center">
+ <th>4</th>
+ <td>#0431</td>
+ <td>Glameow</td>
+ <td><img src="Glameow.png" alt="My Image" width="100" height="100"</td>
+ <td = colspan="2" style="background-color: 00991A; color: white;">Grass</td>
+ <td>Glameow</td>
+ <td>Purugly</td>
+ <td>Abby</td>
+ <td>05-09-2004</td>
+ </tr>
+ 
+ <tr align="center">
+ <th>5</th>
+ <td>#0507</td>
+ <td>Herdier</td>
+ <td><img src="Herdier.png" alt="My Image" width="100" height="100"</td>
+ <td = colspan="2" style="background-color: 9C9C9C; color: white;">Normal</td>
+ <td>Lillipup</td>
+ <td>Stoutland</td>
+ <td>Matt</td>
+ <td>23-02-2005</td>
+ </tr>
+ 
+ <tr align="center">
+ <th>6</th>
+ <td>#0654</td>
+ <td>Braixen</td>
+ <td><img src="Braixen.png" alt="My Image" width="100" height="100"</td> 
+ <td = colspan="2" style="background-color: FF0000; color: white;">Fire</td>
+ <td>Fennekin</td>
+ <td>Delphox</td>
+ <td>Gela</td>
+ <td>21-07-2005</td>
+ </tr>
+ 
+ <tr align="center">
+ <th>7</th>
+ <td>#0726</td>
+ <td>Torracat</td>
+ <td><img src="Torracat.png" alt="My Image" width="100" height="100"</td>
+ <td = colspan="2" style="background-color: FF0000; color: white;">Fire</td>
+ <td>Litten</td>
+ <td>incineroar</td>
+ <td>Rey-Anne</td>
+ <td>06-09-2004</td>
+ </tr>
+ 
+ <tr align="center">
+ <th>8</th>
+ <td>#0858</td>
+ <td>Hatterene</td>
+ <td><img src="Hatterene.png" alt="My Image" width="100" height="100"</td>
+ <td style="background-color: FF00AA; color: white;">Psychic</td>
+ <td style="background-color: FF97FC; color: white;">Fairy</td>
+ <td>Hatenna</td>
+ <td>Hatterene</td>
+ <td>Lea</td>
+ <td>04-01-2004</td>
+ </tr>
+ 
+ <tr align="center">
+ <th>9</th>
+ <td>#0958</td>
+ <td>Tinkatuff</td>
+ <td><img src="Tinkatuff.png" alt="My Image" width="100" height="100"</td>
+ <td style="background-color: FF97FC; color: white;">Fairy</td>
+ <td style="background-color: 6698FD; color: white;">Steel</td>
+ <td>Tinkatink</td>
+ <td>Tinkaton</td>
+ <td>Kyle</td> 
+ <td>17-06-204</td>
+ </tr>
+ </table>
+
+</body>
+</html>
