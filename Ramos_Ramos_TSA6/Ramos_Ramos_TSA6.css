@@ -1,0 +1,279 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    justify-content: space-between;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+    transition: 0.5s;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: #c7a537;
+}
+
+p {
+    color: rgb(192, 192, 192);
+}
+
+.container {
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.col-2 {
+    flex-basis: 50%;
+    width: 300px;
+}
+
+.col-2 img {
+    max-width: 100%;
+}
+
+.col-2 h1 {
+    font-size: 60px;
+    line-height: 60px;
+    margin-top: 10px 0;
+    padding: 20px;
+}
+
+.btn {
+    display: inline-block;
+    background: #6bbb10ad;
+    color: white;
+    padding: 8px 30px;
+    margin: 30px 0;
+    transition: 0.5s;
+}
+
+.btn:hover {
+    background: #c7a537;
+}
+
+.header {
+    background: linear-gradient(109.6deg, rgb(6, 2, 2) 32.4%, rgb(137, 30, 47) 98.8%);
+}
+
+.header .row {
+    margin-top: 80px;
+}
+
+.categories {
+    margin: 70px 0;
+}
+
+.col-3 {
+    flex-basis: 30%;
+    width: 300px;
+}
+
+.col-3 img {
+    width: 100%;
+}
+
+.small-container {
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 40px;
+    color: black;
+}
+
+.best-selling {
+    display: flex;
+    justify-content: space-between;
+    overflow-x: auto;
+}
+
+.best-selling .col-4 {
+    flex: 0 0 24%;
+    box-sizing: border-box;
+    margin-right: 10px;
+}
+
+.best-selling .col-4:last-child {
+    margin-right: 0;
+}
+
+.best-selling img {
+    width: 100%;
+}
+
+.about,
+.contact,
+.account {
+    padding: 50px;
+    background: #f9f9f9;
+}
+
+.about h2,
+.contact h2,
+.account h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.about p,
+.contact p,
+.account p {
+    color: #666;
+    line-height: 1.6;
+}
+
+.about h3 {
+    margin-top: 20px;
+    color: #333;
+}
+
+.about ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+.about ul li {
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 600px;
+    text-align: center;
+}
+
+.modal-content h2 {
+    margin-bottom: 20px;
+}
+
+.modal-content p {
+    margin-bottom: 20px;
+    color: #666;
+}
+
+.modal-content .btn {
+    background: #333;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.about {
+    padding: 50px;
+    background-color: #f0f0f0; 
+}
+
+.about h2 {
+    color: #333;
+}
+
+.about p {
+    color: #666;
+    line-height: 1.6;
+}
+
+.contact {
+    padding: 50px;
+    background-color: #e0e0e0;
+    text-align: center;
+}
+
+.contact h2 {
+    color: #333;
+}
+
+.contact p {
+    color: #666;
+    line-height: 1.6;
+}
+
+.contact .label {
+    font-weight: bold;
+}
+
+
+.account {
+    padding: 50px;
+    background-color: #d0d0d0;
+    text-align: center;
+}
+
+.account h2 {
+    color: #333;
+}
+
+.account p {
+    color: #666;
+    line-height: 1.6;
+}
+
+
