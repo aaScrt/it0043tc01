@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Portfolio</title>
+    <link rel="stylesheet" href="DP.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <h1>Aaliyah Angelica</h1>
+                <p>Digital Portfolio</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#work">Work</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+<section id="home">
+    <div class="home-content">
+        <h2>Welcome to My Portfolio</h2>
+        <p>Discover my work and get to know me.</p>
+        <button onclick="scrollToSection('#about')">Explore My Portfolio</button>
+    </div>
+</section>
+
+<section id="about">
+    <div class="about-container">
+        <div class="about-text">
+            <h2>About Me</h2>
+            <p>Hi there! I'm Aaliyah Angelica Ramos, 19 years old, currently a freshman at FEU Tech pursuing a degree in BSIT with a major in cybersecurity. While cybersecurity wasn't my initial choice, guided by my parents, I've come to appreciate its potential for a rewarding and impactful career. It equips me with the knowledge and skills to combat cyber threats, ensuring a safer digital environment.
+
+                Beyond my academic pursuits, I find joy in various hobbies such as volleyball, online games, and listening to music. Oh, and I'm into sketching, playing ukulele, singing, and whipping up delicious dishes, which allows me to express my creativity and enjoy diverse interests.
+                
+                I'm excited about the journey ahead, navigating the dynamic world of technology and cybersecurity, and eagerly embracing opportunities for learning and growth in this fast-evolving field.</p>
+        </div>
+        <div class="about-image">
+            <img src="my pic.png" alt="Your Photo">
+        </div>
+    </div>
+</section>
+
+<section id="work">
+    <h2>My Work</h2>
+    <div class="work-container">
+        <div class="work-item">
+            <img src="Work-1.png" alt="Work 1">
+            <h3>Work 1</h3>
+            <p>Pokemon Data Based</p>
+            <a href="https://aascrt.github.io/it0043tc01/ramos_aaliyah_tsa2.html" class="view-work-button">View Work</a>
+        </div>
+
+        <div class="work-item">
+            <img src="Work-2.png" alt="Work 2">
+            <h3>Work 2</h3>
+            <p>Pokemon Cards</p>
+            <a href="https://reeeyanne.github.io/it0043tc01/ramosfam_tsa4/ramos_ramos_TSA4.html" class="view-work-button">View Work</a>
+        </div>
+
+        <div class="work-item">
+            <img src="Work-3.png" alt="Work 3">
+            <h3>Work 3</h3>
+            <p>Flex box</p>
+            <a href="https://aascrt.github.io/it0043tc01/Jose_RamosAA_TSA5.html" class="view-work-button">View Work</a>
+        </div>
+
+        <div class="work-item">
+            <img src="Work-4.png" alt="Work 4">
+            <h3>Work 4</h3>
+            <p>Web Page</p>
+            <a href="https://aascrt.github.io/it0043tc01/Ramos_Ramos_TSA6/Ramos_Ramos_TSA6.html" class="view-work-button">View Work</a>
+        </div>
+
+        <div class="work-item">
+            <img src="Work-5.png" alt="Work 5">
+            <h3>Work 5</h3>
+            <p>Flex-box Simulator</p>
+            <a href="https://reeeyanne.github.io/it0043tc01/Flexbox%20Simulator/Ramos_Ramos_TSA7.html" class="view-work-button">View Work</a>
+        </div>
+    </div>
+
+    <div class="pagination">
+        <button id="page1">Page 1</button>
+        <button id="page2">Page 2</button>
+    </div>
+</section>
+
+
+<section id="contact">
+    <div class="container">
+        <h2>Contact Me</h2>
+        <form action="#">
+            <div class="form-group">
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" name="fullname" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="6" required></textarea>
+            </div>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+</section>
+
+    
+<section id="testimonials">
+    <h2>Testimonials</h2>
+    <div class="testimonial-container">
+        <div class="testimonial">
+            <div class="testimonial-content">
+                <img src="Rey.png" alt="">
+                <p>"Aaliyah was an amazing partner in our web design activities. Her attention to detail and creativity really shined through in the interfaces we developed together. Her commitment to making designs that are not only beautiful but also easy to use was really inspiring." <span class="date"><b>- Rey-Anne Ramos</b></p>
+            </div>
+        </div>
+        <div class="testimonial">
+            <div class="testimonial-content">
+                <img src="Lea.png" alt="">
+                <p>"Aaliyah's contributions to our web design activities were outstanding. Her designs were not only aesthetically pleasing but also functional, which is crucial in today's digital landscape. She was always eager to learn and improve." <span class="date"><b>- Lea Joy Jose</b></p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<footer>
+    <div class="social-media-icons">
+        <a href="https://www.facebook.com/aaliyahangelica27?mibextid=ZbWKwL" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://github.com/aaScrt" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://www.instagram.com/aa_styls/" target="_blank"><i class="fab fa-instagram"></i></a>
+    </div>
+    <p>&copy; 2024 Aaliyah Angelica Ramos. All rights reserved.</p>
+</footer>
+
+
+    
+    <script src="DP.js"></script>
+</body>
+</html>
